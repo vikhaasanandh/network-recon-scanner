@@ -1,6 +1,7 @@
 from scanner.port_scanner import scan_ports
 from scanner.risk_analyzer import analyze_scan
 from scanner.cve_lookup import main as cve_lookup
+from scanner.report_generator import generate_report
 
 
 def main():
@@ -19,6 +20,8 @@ def main():
 
     print("\n[3/3] Starting CVE lookup...")
     cve_lookup()
+    print("\n[4/4] Generating HTML security report...")
+    generate_report()
 
     print("\n" + "=" * 60)
     print("              SCAN COMPLETED")
