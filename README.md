@@ -70,4 +70,4 @@ The main objectives of this project are:
               HTML Report Generator
                         │
                         ▼
-             security_report.htmlgit
+             security_report.html
