@@ -31,6 +31,7 @@ def main():
     print("  → reports/scan_results.json")
     print("  → reports/risk_analysis.json")
     print("  → reports/cve_results.json")
+    print("  → reports/security_report.html")
 
 
 if __name__ == "__main__":
