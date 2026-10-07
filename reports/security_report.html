@@ -457,7 +457,7 @@ Target
 </span>
 
 <span class="info-value">
-172.22.131.186
+172.22.128.1
 </span>
 
 </div>
@@ -470,7 +470,7 @@ Scan Time
 </span>
 
 <span class="info-value">
-2026-10-06T15:27:59.950342
+2026-10-07T11:53:38.771863
 </span>
 
 </div>
@@ -496,8 +496,8 @@ Automated risk evaluation based on discovered services.
 
 </div>
 
-<div class="status high">
-HIGH RISK
+<div class="status low">
+LOW RISK
 </div>
 
 </div>
@@ -515,7 +515,7 @@ Open Ports
 </div>
 
 <div class="stat-value blue">
-5
+3
 </div>
 
 <div class="stat-description">
@@ -549,7 +549,7 @@ High Risks
 </div>
 
 <div class="stat-value red">
-1
+0
 </div>
 
 <div class="stat-description">
@@ -566,7 +566,7 @@ Medium Risks
 </div>
 
 <div class="stat-value orange">
-1
+0
 </div>
 
 <div class="stat-description">
@@ -637,7 +637,7 @@ Open ports and detected service information
 <tr>
 
 <td>
-<strong>135</strong>
+<strong>22</strong>
 </td>
 
 <td>
@@ -651,11 +651,41 @@ OPEN
 </td>
 
 <td>
-msrpc
+ssh
 </td>
 
 <td>
-Microsoft Windows RPC
+Cisco SSH
+</td>
+
+<td>
+1.25
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+<strong>80</strong>
+</td>
+
+<td>
+tcp
+</td>
+
+<td>
+<span class="badge badge-open">
+OPEN
+</span>
+</td>
+
+<td>
+http
+</td>
+
+<td>
+OpenResty web app server
 </td>
 
 <td>
@@ -667,7 +697,7 @@ unknown
 <tr>
 
 <td>
-<strong>139</strong>
+<strong>443</strong>
 </td>
 
 <td>
@@ -681,101 +711,11 @@ OPEN
 </td>
 
 <td>
-netbios-ssn
+http
 </td>
 
 <td>
-Microsoft Windows netbios-ssn
-</td>
-
-<td>
-unknown
-</td>
-
-</tr>
-
-<tr>
-
-<td>
-<strong>445</strong>
-</td>
-
-<td>
-tcp
-</td>
-
-<td>
-<span class="badge badge-open">
-OPEN
-</span>
-</td>
-
-<td>
-microsoft-ds
-</td>
-
-<td>
-
-</td>
-
-<td>
-unknown
-</td>
-
-</tr>
-
-<tr>
-
-<td>
-<strong>5432</strong>
-</td>
-
-<td>
-tcp
-</td>
-
-<td>
-<span class="badge badge-open">
-OPEN
-</span>
-</td>
-
-<td>
-postgresql
-</td>
-
-<td>
-PostgreSQL DB
-</td>
-
-<td>
-unknown
-</td>
-
-</tr>
-
-<tr>
-
-<td>
-<strong>8000</strong>
-</td>
-
-<td>
-tcp
-</td>
-
-<td>
-<span class="badge badge-open">
-OPEN
-</span>
-</td>
-
-<td>
-http-alt
-</td>
-
-<td>
-Splunkd
+OpenResty web app server
 </td>
 
 <td>
@@ -827,44 +767,8 @@ Rule-based assessment of exposed network services
 
 <tr>
 
-<td>
-445
-</td>
-
-<td>
-SMB
-</td>
-
-<td>
-<span class="badge badge-high">
-HIGH
-</span>
-</td>
-
-<td>
-SMB exposed to untrusted networks can increase attack surface.
-</td>
-
-</tr>
-
-<tr>
-
-<td>
-5432
-</td>
-
-<td>
-PostgreSQL
-</td>
-
-<td>
-<span class="badge badge-medium">
-MEDIUM
-</span>
-</td>
-
-<td>
-Database service should not normally be exposed to untrusted networks.
+<td colspan="4" class="empty">
+No rule-based security risks were identified.
 </td>
 
 </tr>
@@ -956,12 +860,12 @@ Summary of the automated security assessment
 
 <tr>
 <td>Discovered Open Ports</td>
-<td><strong>5</strong></td>
+<td><strong>3</strong></td>
 </tr>
 
 <tr>
 <td>Total Risk Findings</td>
-<td><strong>2</strong></td>
+<td><strong>0</strong></td>
 </tr>
 
 <tr>
@@ -971,12 +875,12 @@ Summary of the automated security assessment
 
 <tr>
 <td>High Findings</td>
-<td class="red"><strong>1</strong></td>
+<td class="red"><strong>0</strong></td>
 </tr>
 
 <tr>
 <td>Medium Findings</td>
-<td class="orange"><strong>1</strong></td>
+<td class="orange"><strong>0</strong></td>
 </tr>
 
 <tr>

@@ -37,52 +37,6 @@ The main objectives of this project are:
 
 ---
 
----
-
-## ⚙️ Installation & Setup
-
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/vikhaasanandh/network-recon-scanner.git
-cd network-recon-scanner
-
-## 🏗️ Architecture
-
-```text
-                    Target IP
-                        │
-                        ▼
-                ┌───────────────┐
-                │ Nmap Scanner  │
-                └───────┬───────┘
-                        │
-                        ▼
-             Port + Service Detection
-                        │
-                        ▼
-               Version Detection
-                        │
-                        ▼
-              scan_results.json
-                        │
-              ┌─────────┴─────────┐
-              │                   │
-              ▼                   ▼
-       Risk Analyzer          CVE Lookup
-              │                   │
-              ▼                   ▼
-   risk_analysis.json       cve_results.json
-              │                   │
-              └─────────┬─────────┘
-                        │
-                        ▼
-              HTML Report Generator
-                        │
-                        ▼
-             security_report.html
-
-
 ## ⚙️ Installation & Setup
 
 ### 1. Clone the repository
