@@ -37,6 +37,16 @@ The main objectives of this project are:
 
 ---
 
+---
+
+## ⚙️ Installation & Setup
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/vikhaasanandh/network-recon-scanner.git
+cd network-recon-scanner
+
 ## 🏗️ Architecture
 
 ```text
@@ -71,3 +81,12 @@ The main objectives of this project are:
                         │
                         ▼
              security_report.html
+
+
+## ⚙️ Installation & Setup
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/vikhaasanandh/network-recon-scanner.git
+cd network-recon-scanner
